@@ -1,0 +1,45 @@
+/*
+    Elements: Page
+    ---
+    Default markup for page level elements
+*/
+
+html {
+
+    font-size: 16px;
+    line-height: 1,5;
+    font-family: "helvetica Neue", Arial, Helvetica, sans-serif;
+    color: rgba(41, 40, 40, 0.315);
+    padding: 24px 24px 0;
+    background: whitesmoke;
+
+
+
+
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+
+}
+
+::selection {
+
+}
+
+body{
+    max-width: 42em;
+    margin: 0 auto;
+}
+/*  1em = de root font-size, de font-size die we in de html ingesteld hebben. Dus 16px in dit geval. Als we onze root font-size zouden vergroten naar 18px wordt de maximum breedte automatisch groter.
+*/
+img{
+    max-width: 100%;
+    vertical-align: top;
+}

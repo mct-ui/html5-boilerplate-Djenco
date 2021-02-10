@@ -15,9 +15,7 @@ html {
  * Customize the background color to match your design.
  */
 
-::-moz-selection {
-
-}
+::-moz-selection {}
 
 ::selection {
 
