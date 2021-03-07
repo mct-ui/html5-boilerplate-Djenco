@@ -5,17 +5,12 @@
 */
 
 html {
-
-    font-size: 16px;
-    line-height: 1,5;
-    font-family: "helvetica Neue", Arial, Helvetica, sans-serif;
-    color: rgba(41, 40, 40, 0.315);
-    padding: 24px 24px 0;
-    background: whitesmoke;
-
-
-
-
+  font-size: 16px;
+  line-height: 1, 5;
+  font-family: 'helvetica Neue', Arial, Helvetica, sans-serif;
+  color: rgba(41, 40, 40, 0.315);
+  padding: 24px 24px 0;
+  background: whitesmoke;
 }
 
 /*
@@ -26,22 +21,20 @@ html {
  */
 
 ::-moz-selection {
-
 }
 
 ::selection {
-
 }
 
-body{
-    max-width: 42em;
-    margin: 0 auto;
+body {
+  max-width: 42em;
+  margin: 0 auto;
 }
 /*  1em = de root font-size, de font-size die we in de html ingesteld hebben. Dus 16px in dit geval. Als we onze root font-size zouden vergroten naar 18px wordt de maximum breedte automatisch groter.
 */
-img{
-    max-width: 100%;
-    vertical-align: top;
+img {
+  max-width: 100%;
+  vertical-align: top;
 }
 /*
     Elements: typography
@@ -50,25 +43,31 @@ img{
 */
 
 h1 {
-    font-family: "Times New Roman" ,serif;
-    font-size: 36px;
-    font-weight: normal;
-    line-height: 40px;
-    margin: 0 0 48px;
+  font-family: 'Times New Roman', serif;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 40px;
+  margin: 0 0 48px;
 }
 
 h2 {
-
+  font-size: 23px;
+  line-height: 32px;
+  margin: 0 0 24px;
 }
 
 h3 {
-
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 24px;
 }
 
 h4,
 h5,
 h6 {
-
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 24px;
 }
 
 p,
@@ -78,42 +77,57 @@ dl,
 table,
 address,
 figure {
-
+  margin: 0 0 24px;
 }
 
 ul,
 ol,
 blockquote {
-
 }
 
 li ul,
-li ol{
-
+li ol {
+  margin-bottom: 0;
 }
 
 blockquote {
+  font-style: italic;
+  font-size: 23px;
+  line-height: 32px;
+  margin: 0 0 24px;
+  font-family: 'Times New Roman', serif;
+}
 
+blockquote * {
+  font-size: inherit;
+  line-height: inherit;
 }
 
 figcaption {
-
+  font-size: 12px;
+  line-height: 16px;
+  padding-top: 8px;
+  color: grey;
+}
+ul,
+ol {
+  padding-left: 24px;
 }
 
 hr {
-
+  border: 0;
+  height: 1px;
+  background: lightgray;
+  margin: 0 0 24px;
 }
 
 a {
-
 }
 
 a:hover,
 a:focus {
-
 }
 
 a:visited,
 a:active {
-    
 }
